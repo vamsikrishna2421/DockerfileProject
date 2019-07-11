@@ -7,7 +7,7 @@ Dockerfile for routinely used containers
 
 
 
-#How to use Tomcatfile
+# How to use Tomcatfile
 1.Change filename from Tomcatfile to Dockerfile and be in same directory
 2.TO create image from DOckerfile Runcommand:
 $docker build -t tomcat:1.0 .
