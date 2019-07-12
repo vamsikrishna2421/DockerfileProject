@@ -11,7 +11,7 @@ RUN service jenkins start && sleep 20
 RUN ["cat", "/var/lib/jenkins/secrets/initialAdminPassword"]
 #RUN cat /var/lib/jenkins/secrets/initialAdminPassword
 CMD service jenkins start && tail -f /dev/null
-
+EXPOSE 8080
 
 
 
