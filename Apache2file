@@ -3,3 +3,4 @@ MAINTAINER vamsi
 RUN apt-get update
 RUN apt-get install apache2
 CMD service apache2 start && tail -f /dev/null
+EXPOSE 80
